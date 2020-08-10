@@ -6,6 +6,9 @@ class Anagram
     @word = word
   end
   
+  def word_elements
+  end
+  
   def match(array)
     array.filter{|e| e == @word }
   end
