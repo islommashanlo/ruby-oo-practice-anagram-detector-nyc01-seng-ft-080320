@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(array)
-    array.map{|e| e = @word }.uniq
+    array.find{|e| e == @word }
   end
 end
