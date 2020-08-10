@@ -7,6 +7,6 @@ class Anagram
   end
   
   def match(array)
-    array.filter{|e| e.match?(@word) }
+    array.filter{|e| e.any?(@word) }
   end
 end
